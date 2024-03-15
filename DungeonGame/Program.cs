@@ -4,9 +4,13 @@ using Models.Events;
 
 List<Event> events = new() {
     new RzcSkor(),
+    new Odami(),
+    new GoblinsEvent(),
+    new GoblinsDoctorEvent(),
+    new GoblinsUltraEvent(),
+    new Tsygane(),
+    new Cruwis(),
     new ComunistEvent(),
-    //new SystemEvent(),
-    //new SystemEvent()
 };
 
 var playerCreationResult = Player.Create(10, 0);

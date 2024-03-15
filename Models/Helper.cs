@@ -4,7 +4,7 @@ namespace DungeonGame
     public class Helper
     {
         public static void PrintDevide() 
-            => Console.WriteLine("------------------------------------------------");
+            => Console.WriteLine("------------------------------------------------------------------------------------------------------");
 
         public static void WelcomeMessage(string name)
         {
