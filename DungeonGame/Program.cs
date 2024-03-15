@@ -5,9 +5,7 @@ using Models.Events;
 List<Event> events = [
 
     new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent()
+    new Cruwis()
 
 ];
 
