@@ -4,11 +4,11 @@ using Models.Events;
 
 List<Event> events = [
 
-    new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent()
-
+    //new SystemEvent(),
+    //new SystemEvent(),
+    //new SystemEvent(),
+    //new SystemEvent(),
+    new Tsygane(),
 ];
 
 var playerCreationResult = Player.Create(10, 0);
