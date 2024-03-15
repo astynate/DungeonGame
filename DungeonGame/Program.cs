@@ -3,10 +3,10 @@ using Models;
 using Models.Events;
 
 List<Event> events = new() {
-    new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent(),
-    new SystemEvent()
+    new RzcSkor(),
+    new ComunistEvent(),
+    //new SystemEvent(),
+    //new SystemEvent()
 };
 
 var playerCreationResult = Player.Create(10, 0);

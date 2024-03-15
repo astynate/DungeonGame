@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Models.Events
 {
-    internal class RzcSkor: Event
+    public class RzcSkor : Event
     {
         public string? CorrectAnswer { get; private set; } = "Настрой!";
 
